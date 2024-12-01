@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Repositories</title>
+</head>
+<body>
+    <h1>Select Repositories to Clone</h1>
+    <form action="/clone-repos" method="POST">
+        <ul>
+            {% for repo in repos %}
+            <li>
+                <label>
+                    <input type="checkbox" name="repos" value="{{ repo.clone_url }}">
+                    {{ repo.name }}
+                </label>
+            </li>
+            {% endfor %}
+        </ul>
+        <button type="submit">Clone Selected Repos</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.homepage {
+    background-color: #f0f0f0; /* Light grey background for the entire homepage */
+}
+
+.custom-container {
+    max-width: 600px;
+    background-color: #ffffff;
+}
+
+.connect-btn {
+    background-color: #ff6600 !important; /* A custom orange color for the button */
+    border: none;
+}

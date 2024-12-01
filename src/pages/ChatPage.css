@@ -1,0 +1,25 @@
+/* ChatPage.css */
+
+/* Additional spacing and background color to distinguish sections */
+.chat-page {
+    margin-top: 20px;
+}
+
+.chat-window {
+    background-color: #f8f9fa; /* Light gray background for chat window */
+    padding: 20px;
+    border-radius: 8px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+.clone-menu {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.clone-repo-button {
+    margin-top: 15px;
+}
